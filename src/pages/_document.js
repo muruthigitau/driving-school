@@ -10,34 +10,6 @@ export default function Document() {
         <meta charSet="UTF-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="author" content="PDX Driving School" />
-        <meta
-          name="description"
-          content="PDX Driving School offers comprehensive driving courses and training for all levels. Join us to become a confident and skilled driver."
-        />
-        <meta property="og:title" content="PDX Driving School" />
-        <meta
-          property="og:description"
-          content="PDX Driving School offers comprehensive driving courses and training for all levels. Join us to become a confident and skilled driver."
-        />
-        <meta
-          property="og:image"
-          content="https://pdxdrivingschool.com/assets/pdx.jpg"
-        />
-        <meta property="og:url" content="https://pdxdrivingschool.com/" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="PDX Driving School" />
-        <meta
-          name="twitter:description"
-          content="PDX Driving School offers comprehensive driving courses and training for all levels. Join us to become a confident and skilled driver."
-        />
-        <meta
-          name="twitter:image"
-          content="https://pdxdrivingschool.com/assets/pdx.jpg"
-        />
-
-        {/* <!-- ======== Page title ============ --> */}
-        <title>PDX Driving School</title>
 
         {/* <!-- ===========  All Font ================= --> */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
