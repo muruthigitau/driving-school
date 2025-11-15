@@ -1,4 +1,4 @@
-import { Html, Head, Main, NextScript } from "next/document";
+import { Head, Html, Main, NextScript } from "next/document";
 
 export default function Document() {
   return (
@@ -22,9 +22,9 @@ export default function Document() {
         />
         <meta
           property="og:image"
-          content="https://pdx.mslabdesigns.com/assets/pdx.jpg"
+          content="https://pdxdrivingschool.com/assets/pdx.jpg"
         />
-        <meta property="og:url" content="https://pdx.mslabdesigns.com/" />
+        <meta property="og:url" content="https://pdxdrivingschool.com/" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="PDX Driving School" />
         <meta
@@ -33,7 +33,7 @@ export default function Document() {
         />
         <meta
           name="twitter:image"
-          content="https://pdx.mslabdesigns.com/assets/pdx.jpg"
+          content="https://pdxdrivingschool.com/assets/pdx.jpg"
         />
 
         {/* <!-- ======== Page title ============ --> */}
