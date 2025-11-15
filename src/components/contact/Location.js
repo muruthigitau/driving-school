@@ -1,5 +1,3 @@
-import React from "react";
-
 const ContactLocation = () => {
   return (
     <section class="contact-location">
@@ -109,7 +107,7 @@ const ContactLocation = () => {
                             Visit Anytime
                           </span>
                           <h6 class="contact-location__inner__item__content__info__call">
-                            2049 SE 102nd Ave, Portland, OR 97216
+                            18055 SE Division Street #201 Portland OR 97236
                           </h6>
                         </div>
                       </a>

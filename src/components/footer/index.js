@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 
 const Footer = () => {
@@ -74,7 +73,7 @@ const Footer = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        2049 SE 102nd Ave, Portland, OR 97216
+                        18055 SE Division Street #201 Portland OR 97236
                       </a>
                     </li>
                     <li>
@@ -166,7 +165,16 @@ const Footer = () => {
           <div class="main-footer__bottom__inner">
             <p class="main-footer__copyright">
               &copy; Copyright <span class="dynamic-year"></span> by PDX Driving
-              School
+              School | All rights reserved. Designed with ❤️ by
+              <Link
+                href="https://mslabdesigns.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ color: "#fff" }}
+              >
+                {" "}
+                Mslabdesigns
+              </Link>
             </p>
           </div>
           {/* <!-- /.main-footer__inner --> */}

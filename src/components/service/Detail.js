@@ -1,6 +1,5 @@
-import React from "react";
-import { useRouter } from "next/router";
 import services from "@/data/services.json"; // Import the services data
+import { useRouter } from "next/router";
 
 const ServiceDetail = () => {
   const router = useRouter();
