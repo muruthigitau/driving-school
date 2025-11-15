@@ -9,6 +9,10 @@ const CourseDetailPage = () => {
   const router = useRouter();
   const { slug } = router.query;
 
+  if (!slug) {
+    return <div>Loading...</div>;
+  }
+
   // Find the current course
   const course = courses?.find((c) => c.slug === slug);
 

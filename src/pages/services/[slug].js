@@ -9,6 +9,10 @@ const ServiceDetailPage = () => {
   const router = useRouter();
   const { slug } = router.query;
 
+  if (!slug) {
+    return <div>Loading...</div>;
+  }
+
   // Find the current service based on the slug
   const currentService = services?.find((service) => service.slug === slug);
 
